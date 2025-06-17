@@ -1,0 +1,40 @@
+,count,unique,top,freq,mean,std,min,25%,50%,75%,max,dataset
+Year,20.0,,,,1974.8,25.58288901837155,1930.0,1957.0,1976.0,1995.0,2014.0,WorldCups
+Country,20,15,Italy,2,,,,,,,,WorldCups
+Winner,20,9,Brazil,5,,,,,,,,WorldCups
+Runners-Up,20,10,Argentina,3,,,,,,,,WorldCups
+Third,20,14,Germany,3,,,,,,,,WorldCups
+Fourth,20,16,Uruguay,3,,,,,,,,WorldCups
+GoalsScored,20.0,,,,118.95,32.97283570966929,70.0,89.0,120.5,145.25,171.0,WorldCups
+QualifiedTeams,20.0,,,,21.25,7.268352452132536,13.0,16.0,16.0,26.0,32.0,WorldCups
+MatchesPlayed,20.0,,,,41.8,17.218716866431013,17.0,30.5,38.0,55.0,64.0,WorldCups
+Attendance,6.0,,,,635.1396666666666,228.84694120452357,363.0,429.41225,679.578,807.00925,893.172,WorldCups
+Year,852.0,,,,1985.0892018779343,22.448824702021444,1930.0,1970.0,1990.0,2002.0,2014.0,WorldCupMatches
+Datetime,852,602,27 May 1934 - 16:30 ,8,,,,,,,,WorldCupMatches
+Stage,852,23,Round of 16,72,,,,,,,,WorldCupMatches
+Stadium,852,181,Estadio Azteca,19,,,,,,,,WorldCupMatches
+City,852,151,Mexico City ,23,,,,,,,,WorldCupMatches
+Home Team Name,852,78,Brazil,82,,,,,,,,WorldCupMatches
+Home Team Goals,852.0,,,,1.8110328638497653,1.6102551385229658,0.0,1.0,2.0,3.0,10.0,WorldCupMatches
+Away Team Goals,852.0,,,,1.022300469483568,1.0875733783096064,0.0,0.0,1.0,2.0,7.0,WorldCupMatches
+Away Team Name,852,83,Mexico,38,,,,,,,,WorldCupMatches
+Win conditions,852,43, ,787,,,,,,,,WorldCupMatches
+Attendance,850.0,,,,45164.8,23485.249247289303,2000.0,30000.0,41579.5,61374.5,173850.0,WorldCupMatches
+Half-time Home Goals,852.0,,,,0.7089201877934272,0.9374141286628077,0.0,0.0,0.0,1.0,6.0,WorldCupMatches
+Half-time Away Goals,852.0,,,,0.4284037558685446,0.6912518906955027,0.0,0.0,0.0,1.0,5.0,WorldCupMatches
+Referee,852,366,Ravshan IRMATOV (UZB),10,,,,,,,,WorldCupMatches
+Assistant 1,852,387,ACHIK Redouane (MAR),7,,,,,,,,WorldCupMatches
+Assistant 2,852,408,KOCHKAROV Bakhadyr (KGZ),10,,,,,,,,WorldCupMatches
+RoundID,852.0,,,,10661772.591549296,27296131.702870198,201.0,262.0,337.0,249722.0,97410600.0,WorldCupMatches
+MatchID,852.0,,,,61346867.552816905,111057171.67191158,25.0,1188.75,2191.0,43950059.25,300186515.0,WorldCupMatches
+Home Team Initials,852,77,BRA,82,,,,,,,,WorldCupMatches
+Away Team Initials,852,82,MEX,38,,,,,,,,WorldCupMatches
+RoundID,37784.0,,,,11056474.44595596,27701436.528428804,201.0,263.0,337.0,255931.0,97410600.0,WorldCupPlayers
+MatchID,37784.0,,,,63622329.57122062,112391584.16407847,25.0,1199.0,2216.0,97410003.0,300186515.0,WorldCupPlayers
+Team Initials,37784,82,BRA,2403,,,,,,,,WorldCupPlayers
+Coach Name,37784,335,SCOLARI Luiz Felipe (BRA),575,,,,,,,,WorldCupPlayers
+Line-up,37784,2,N,19040,,,,,,,,WorldCupPlayers
+Shirt Number,37784.0,,,,10.726021596442939,6.960138422882863,0.0,5.0,11.0,17.0,23.0,WorldCupPlayers
+Player Name,37784,7663,RONALDO,33,,,,,,,,WorldCupPlayers
+Position,4143,3,GK,2441,,,,,,,,WorldCupPlayers
+Event,9069,1893,OH46',247,,,,,,,,WorldCupPlayers
