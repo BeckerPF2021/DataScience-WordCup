@@ -1,0 +1,5 @@
+pandas
+dash
+plotly
+scikit-learn
+numpy
