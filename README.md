@@ -1,6 +1,6 @@
 # 🏆 Análise e Visualização das Copas do Mundo de Futebol
 
-Este projeto apresenta uma análise exploratória, visualização interativa e predição de dados históricos das Copas do Mundo de Futebol, utilizando bibliotecas de ciência de dados e ferramentas de visualização modernas. O objetivo é tornar o processo de análise intuitivo, interativo e acessível por meio de dashboards web dinâmicos.
+Este projeto apresenta uma análise exploratória, visualização interativa e predição de dados históricos das Copas do Mundo de Futebol. Utilizando bibliotecas modernas de ciência de dados e dashboards web, a proposta é tornar a análise intuitiva, interativa e acessível.
 
 ---
 
@@ -9,14 +9,12 @@ Este projeto apresenta uma análise exploratória, visualização interativa e p
 - `data/` — arquivos CSV com dados históricos das Copas.
 - `plots/` — gráficos gerados automaticamente para análise.
 - `output/` — estatísticas descritivas exportadas.
-- `images/` — imagens utilizadas no dashboard (ex: Dashboard.png).
+- `images/` — imagens utilizadas no dashboard.
 - `app.py` — inicialização da aplicação Dash com layout e rotas.
 - `data_loader.py` — funções para carregar e preparar os dados.
 - `visualization.py` — criação de gráficos com Plotly.
 - `callbacks.py` — lógica interativa dos componentes da interface.
-- `ml_model.py` — treinamento e visualização dos modelos de regressão.
-- `utils.py` — funções auxiliares (formatação, validação, mapeamentos).
-- `constants.py` — dicionários e constantes globais utilizadas no projeto.
+- `ml_model.py` — modelos de regressão e classificadores de ML.
 - `README.md` — este documento.
 - `requirements.txt` — bibliotecas necessárias para execução.
 
@@ -24,76 +22,81 @@ Este projeto apresenta uma análise exploratória, visualização interativa e p
 
 ## 🌐 Acesse o Projeto
 
-Repositório no GitHub:  
+Repositório GitHub:  
 [github.com/BeckerPF2021/DataScience-WordCup](https://github.com/BeckerPF2021/DataScience-WordCup)
 
 ---
 
-## 📊 Datasets
+## 📊 Datasets Utilizados
 
-Os dados foram obtidos de fontes públicas como a FIFA e o Kaggle:
+Fontes: FIFA e Kaggle
 
-- `WorldCups.csv` — informações por edição (ano, país, vencedor, público etc.)
-- `WorldCupMatches.csv` — dados por partida (gols, fase, público)
-- `WorldCupPlayers.csv` — informações sobre os jogadores e eventos (posição, cartões, gols)
+- `WorldCups.csv` — dados por edição (ano, país-sede, campeão, público, etc.)
+- `WorldCupMatches.csv` — informações por partida (gols, fase, estádio, público)
+- `WorldCupPlayers.csv` — dados dos jogadores (posição, cartões, gols, país)
 
 ### Transformações Realizadas
 
 - Padronização de colunas e tipos de dados.
-- Criação de métricas auxiliares como `Total Goals`.
-- Filtros dinâmicos aplicados por país, fase, time e ano.
-- Exportação de estatísticas descritivas e gráficos para `.csv` e `.png`.
+- Criação de colunas derivadas como `Total Goals`.
+- Filtros dinâmicos por país, fase, time e ano.
+- Exportação de estatísticas e gráficos para `.csv` e `.png`.
 
 ---
 
 ## 🧪 Tecnologias e Ferramentas
 
-- **Dash**: construção de dashboards web.
-- **Plotly**: visualizações interativas.
-- **Pandas & NumPy**: manipulação e análise de dados.
-- **Scikit-learn**: modelo de regressão linear e métricas de performance.
+- **Dash** — construção de dashboards web.
+- **Plotly** — gráficos interativos.
+- **Pandas & NumPy** — análise e transformação de dados.
+- **Scikit-learn** — regressão linear, Random Forest e clustering.
 
 ---
 
-## 🤖 Modelo Preditivo
+## 🤖 Modelos de Machine Learning
 
-Modelo de regressão linear implementado para prever:
+Implementações de:
 
-- Total de público por Copa.
-- Média de público por partida.
-- Total de gols por edição.
+- **Regressão Linear** — previsão de público total e gols por Copa.
+- **RandomForestClassifier** — classificação de países com mais títulos.
+- **KMeans** — agrupamento de jogadores por posição e desempenho.
 
 ### Resultados:
 
-- Predições para edições futuras.
-- Métricas de desempenho (R², RMSE).
-- Classificação da performance (Excelente, Boa, Regular, Baixa).
-- Gráficos de tendência e comparação real vs predito.
+- Previsões para futuras edições.
+- Métricas de desempenho: R², RMSE.
+- Classificação da performance: Excelente, Boa, Regular, Baixa.
+- Gráficos de tendência e comparação real x previsto.
+
+![Gráfico de Machine Learning](Demo/machine_learming.png)
 
 ---
 
 ## 📈 Dashboard Interativo
 
-Dividido em 5 seções:
+Dividido em 5 seções principais:
 
-1. **Visão Geral**: gols, público e títulos.
-2. **Partidas**: distribuição por fase.
-3. **Jogadores**: eventos e posições.
-4. **Correlação entre Datasets**.
-5. **Predições com Machine Learning**.
+1. **Visão Geral** — títulos, gols e público por edição.
+2. **Partidas** — análises por fase, sede e desempenho.
+3. **Jogadores** — posição, eventos (gols, cartões) e comparativos.
+4. **Correlação** — relações entre os datasets.
+5. **Predições ML** — resultados dos modelos aplicados.
 
-Com filtros por país, fase, time e edição.
+### Exemplos Visuais:
 
-![Dashboard do Projeto](images/Dashboard.png)
+![Dashboard Principal](Demo/Dashboard.png)
+
+![Análise de Partidas](Demo/partidas.png)
 
 ---
 
 ## 📬 Contato
 
-Desenvolvido por **Guilherme Becker**  
-📧 Email: `guilhermepf97@live.com`  
+Desenvolvido por **Guilherme Becker e Ilmar Germani**  
+📧 Email: `guilhermepf97@live.com, ilmargermani94@gmail.com`  
 🔗 GitHub: [github.com/BeckerPF2021](https://github.com/BeckerPF2021/DataScience-WordCup)
 
 ---
 
-Sinta-se à vontade para clonar, contribuir ou sugerir melhorias. ⚽📊🚀
+Sinta-se à vontade para clonar, contribuir ou sugerir melhorias.  
+⚽📊🚀 *Ciência de dados aplicada ao esporte!*
