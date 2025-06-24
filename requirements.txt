@@ -1,6 +1,5 @@
 pandas
 dash
 plotly
-kaleido
 scikit-learn
 numpy
