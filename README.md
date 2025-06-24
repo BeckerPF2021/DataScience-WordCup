@@ -9,7 +9,7 @@ Este projeto apresenta uma análise exploratória, visualização interativa e p
 - `data/` — arquivos CSV com dados históricos das Copas.  
 - `plots/` — gráficos gerados automaticamente para análise.  
 - `output/` — estatísticas descritivas exportadas.  
-- `images/` — imagens utilizadas no dashboard.  
+- `demo/` — imagens utilizadas no dashboard.  
 - `app.py` — inicialização da aplicação Dash com layout e rotas.  
 - `data_loader.py` — funções para carregar e preparar os dados.  
 - `visualization.py` — criação de gráficos com Plotly.  
