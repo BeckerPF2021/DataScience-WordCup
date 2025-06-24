@@ -88,6 +88,8 @@ Dividido em 5 seções principais:
 
 ![Análise de Partidas](Demo/partidas.png)
 
+![Análise de Predição de Público](Demo/machine_learming.png)
+
 ---
 
 ## 📬 Contato
