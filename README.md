@@ -23,7 +23,7 @@ Este projeto apresenta uma análise exploratória, visualização interativa e p
 ## 🌐 Acesse o Projeto
 
 Repositório GitHub:  
-[github.com/BeckerPF2021/DataScience-WordCup](https://github.com/BeckerPF2021/DataScience-WordCup)
+[github.com/BeckerPF2021/DataScience-WordCup/tree/master](https://github.com/BeckerPF2021/DataScience-WordCup/tree/master)
 
 ---
 
